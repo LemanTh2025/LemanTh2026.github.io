@@ -1,0 +1,37 @@
+/* Override accent color to EPFL-style red and add components */
+:root {
+  --brand-color: #e31e24; /* EPFL red-ish */
+}
+
+a, .btn--primary { color: #fff; background: var(--brand-color); border-color: var(--brand-color); }
+.btn--primary:hover { opacity: .9; }
+
+.lead { font-size: 1.15rem; }
+.event-meta { display: flex; gap: 1.5rem; margin: 1rem 0 2rem; flex-wrap: wrap; }
+.event-meta .meta-item { background:#f7f7f7; padding:.5rem .75rem; border-radius:.5rem; }
+
+.countdown { display:flex; gap:1rem; margin:1rem 0 2rem; }
+.countdown div { text-align:center; padding:.5rem .75rem; border:1px solid #eee; border-radius:.5rem; min-width:4.5rem; }
+.countdown span { display:block; font-size:1.25rem; font-weight:700; }
+
+.sponsor-row { display:flex; gap:2rem; align-items:center; flex-wrap:wrap; }
+.sponsor-row img { height:48px; opacity:.9; }
+
+/* Speaker grid */
+.speaker-grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); gap: 1rem; }
+.speaker-card { background:#fff; border:1px solid #eee; border-radius:12px; padding:.75rem; }
+.speaker-card summary { display:flex; align-items:center; gap:.75rem; cursor:pointer; list-style:none; }
+.speaker-card img { width:56px; height:56px; object-fit:cover; border-radius:50%; border:1px solid #ddd; }
+.speaker-card .name { font-weight:700; }
+.speaker-card .affil { color:#666; font-size:.95rem; }
+.speaker-card .bio { margin-top:.5rem; color:#333; }
+.speaker-card .links { margin-top:.5rem; }
+
+/* Schedule table */
+.schedule-table { width:100%; border-collapse: collapse; }
+.schedule-table th, .schedule-table td { border:1px solid #eee; padding:.5rem .6rem; }
+.schedule-table th { background:#fafafa; }
+
+/* Header buttons alignment */
+.page__hero--overlay .page__title { margin-bottom: .25rem; }
+.page__hero--overlay .btn { margin-right:.5rem; }

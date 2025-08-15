@@ -1,0 +1,17 @@
+- name: "Lenka Zdeborová"
+  affiliation: "EPFL"
+  photo: "/assets/img/speakers/lenka.jpg"
+  link: "https://www.epfl.ch/labs/idephics/"
+  bio: "Works at the interface of statistical physics, machine learning, and inference."
+
+- name: "Nati Srebro"
+  affiliation: "TTIC"
+  photo: "/assets/img/speakers/srebro.jpg"
+  link: "https://ttic.uchicago.edu/~nati/"
+  bio: "Learning theory, optimization, and generalization."
+
+- name: "Zhou Fan"
+  affiliation: "Yale University"
+  photo: "/assets/img/speakers/zhoufan.jpg"
+  link: "https://statistics.yale.edu/people/zhou-fan"
+  bio: "High-dimensional probability, random matrices, and statistics."
